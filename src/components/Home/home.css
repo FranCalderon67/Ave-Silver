@@ -1,0 +1,194 @@
+.mainBackground {
+  background-color: #e5e5e5;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.backgroundImg {
+  z-index: -5;
+  position: absolute;
+  width: 788px;
+  height: 720px;
+  opacity: 0.48;
+}
+
+.headerImg {
+  width: 463px;
+  height: 520px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.textPosition {
+  margin-left: 153px;
+  width: 534px;
+  height: 204px;
+}
+
+.headerText {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 49px;
+  color: #28241b;
+}
+
+.headerButton {
+  background-color: unset;
+  width: 230px;
+  height: 50px;
+  border: 1px solid #967167;
+  margin-top: 48px;
+}
+
+.videoBackground {
+  background-color: #f1edea;
+  mix-blend-mode: darken;
+}
+
+.videoSection {
+  margin-top: 4rem;
+}
+
+video {
+  width: 1001px;
+  height: 668px;
+  margin-left: 150px;
+}
+
+.videoText {
+  width: 612px;
+  margin-left: 350px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #28241b;
+}
+
+.videoDotUp {
+  font-size: 48px;
+  text-align: center;
+  color: #28241b;
+  margin-bottom: 60px;
+}
+
+.videoDotDown {
+  font-size: 48px;
+  text-align: center;
+  color: #28241b;
+  margin-top: 60px;
+}
+
+.homeLogo {
+  width: 79px;
+  height: 140px;
+  margin-left: 596px;
+  margin-top: 86px;
+}
+
+.made {
+  width: 206px;
+  height: 20px;
+  margin-left: 550px;
+  margin-top: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: #967167;
+}
+
+.inspirado {
+  width: 404px;
+  height: 147px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 54px;
+  text-align: center;
+  color: #28241b;
+  margin-left: 440px;
+  margin-top: 32px;
+}
+
+.homeDescription {
+  width: 578px;
+  height: 73px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  color: #28241b;
+  margin-left: 360px;
+  margin-top: 16px;
+}
+
+.list {
+  margin-left: 320px;
+  margin-top: 64px;
+}
+
+.productsList {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #967167;
+  margin-left: 32px;
+}
+
+.listDot {
+  font-size: 40px;
+  color: #967167;
+  margin-left: 48px;
+}
+
+.imgCollage {
+  margin-top: 64px;
+}
+
+.imgAnillo {
+  position: absolute;
+  width: 237px;
+  height: 297px;
+  margin-left: 160px;
+}
+
+.imgAros {
+  position: absolute;
+  width: 383.2px;
+  height: 509px;
+  margin-left: 430px;
+}
+
+.imgAnillos {
+  position: absolute;
+  width: 340px;
+  height: 380px;
+  margin-left: 850px;
+  margin-top: 430px;
+}
+
+.imgColgante {
+  position: absolute;
+  width: 457px;
+  height: 257px;
+  margin-top: 350px;
+  margin-left: 90px;
+  z-index: -1;
+}
+
+.imgCollar {
+  position: absolute;
+  width: 373px;
+  height: 404px;
+  margin-left: 850px;
+}

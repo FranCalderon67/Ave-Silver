@@ -1,0 +1,49 @@
+footer {
+  background-color: #f8f8f8;
+  margin-top: 1000px;
+  height: 350px;
+}
+
+.logoFooter {
+  width: 69px;
+  height: 58px;
+  margin-left: 610px;
+  margin-top: 32px;
+}
+
+.redes {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.facebookLogo {
+  height: 48px;
+  width: 48px;
+  color: black;
+}
+
+.instagramLogo {
+  height: 48px;
+  width: 48px;
+  margin-left: 32px;
+  color: black;
+}
+
+.wppLogo {
+  height: 48px;
+  width: 48px;
+  margin-left: 32px;
+  color: black;
+}
+
+.footerText {
+  width: 306px;
+  height: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 520px;
+  margin-top: 32px;
+  color: #28241b;
+}
