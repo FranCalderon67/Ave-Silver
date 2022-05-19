@@ -1,5 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #F8F8F8;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 48px;
+}
+
+button {
+  height: 61px;
+  background-color: transparent;
+  transition: all 200ms ease-in-out;
+}
+
+button.btn1 {
+  border: 1px solid black;
+}
+
+button.btn2 {
+  border: 1px solid #967167;
+}
+
+button.btn1:hover {
+  border-color: #967167;
+  color: #967167;
+}
+
+button.btn2:hover {
+  color: #967167;
 }

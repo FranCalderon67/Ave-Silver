@@ -1,0 +1,80 @@
+.contactFormContainer--layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+}
+
+.contactForm--h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contactForm--p {
+  text-align: center;
+    font-size: 18px;
+    line-height: 2rem;
+}
+
+.contactForm--size {
+  width: 50%;
+  min-height: 20rem;
+}
+
+.contactForm--position {
+  margin: auto;
+}
+
+.contactForm--layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.contactForm--label-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactForm--email {
+  height: 2rem;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+
+.contactForm--inquiry {
+  height: 7rem;
+  border: none;
+  border-radius: 3px;
+}
+
+.contactForm-Style2 textarea {
+  background-color: #f1edea;
+}
+
+.contactForm-Style2 {
+  width: 60%;
+  height: 22rem;
+  background-color: #ffff;
+  padding: 2rem 4rem;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 834px) {
+  .contactFormContainer--layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .contactForm--size {
+    width: 90%;
+    height: 15rem;
+  }
+}
