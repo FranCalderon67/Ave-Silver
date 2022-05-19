@@ -4,9 +4,9 @@ import "./home.css";
 function Home() {
   return (
     <>
-      <main>
+      <img className="backgroundImg container" src="https://i.ibb.co/zG2FmNh/background-Home.png" alt="Background" />
+      <main className="container-fluid">
         <section>
-          <img className="backgroundImg" src="https://i.ibb.co/zG2FmNh/background-Home.png" alt="Background" />
           <div className="flexContainer">
             <div className="textPosition">
               <p className="headerText">
@@ -21,7 +21,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <section className="videoBackground">
+        <section className="videoBackground ">
           <div className="videoSection">
             <video poster="https://i.ibb.co/G9mjJJp/video-Poster.jpg" controls src={require("./imagenes/VideoAve.mp4")}></video>
             <p className="videoDotUp">.</p>
@@ -32,25 +32,27 @@ function Home() {
           </div>
         </section>
         <section>
-          <img className="homeLogo" src={require("./imagenes/logo.png")} alt="LOGO" />
-          <p className="made">MADE IN TULUM</p>
-          <p className="inspirado ">Inspirado en la Naturaleza</p>
-          <p className="homeDescription">
-            Rodeada de selva, mar tibio, cenotes frescos, palmeras y una fauna increíblemente inspiradora, <strong>Ave, desde México para todo el mundo.</strong>
-          </p>
+          <div className="descriptionSection">
+            <img className="homeLogo" src={require("./imagenes/logo.png")} alt="LOGO" />
+            <p className="made">MADE IN TULUM</p>
+            <p className="inspirado ">Inspirado en la Naturaleza</p>
+            <p className="homeDescription">
+              Rodeada de selva, mar tibio, cenotes frescos, palmeras y una fauna increíblemente inspiradora, <strong>Ave, desde México para todo el mundo.</strong>
+            </p>
 
-          <div className="list">
-            <span className="productsList">
-              ANILLOS<span className="listDot">.</span>
-            </span>
-            <span className="productsList">
-              AMULETOS <span className="listDot">.</span>
-            </span>
+            <div className="list">
+              <span className="productsList">
+                ANILLOS<span className="listDot">.</span>
+              </span>
+              <span className="productsList">
+                AMULETOS <span className="listDot">.</span>
+              </span>
 
-            <span className="productsList">
-              AROS<span className="listDot">.</span>
-            </span>
-            <span className="productsList">COLGANTES</span>
+              <span className="productsList">
+                AROS<span className="listDot">.</span>
+              </span>
+              <span className="productsList">COLGANTES</span>
+            </div>
           </div>
           <div className="imgCollage">
             <img className="imgAnillo" src="https://i.ibb.co/ng44KcK/home-Mano-Con-Anillo.jpg" alt="IMAGEN" />
