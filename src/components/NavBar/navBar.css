@@ -1,0 +1,41 @@
+.navBar--size {
+  height: 3.5rem;
+}
+
+.navBar--layout {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 1% 1rem;
+  margin-bottom: 3.5rem;
+}
+
+.navBar--brand-size {
+  width: 5rem;
+}
+
+.navBar--brand-position {
+  position: absolute;
+  top: 0.3rem;
+  left: 43%;
+  right: 43%;
+}
+
+@media screen and (max-width: 834px) {
+  .navBar--size{
+    min-height: 3.5rem;
+  }
+
+  .navBar--layout {
+    justify-content: flex-start;
+    align-content: center;
+  }
+
+  .navBar--brand-size {
+    width: 4rem;
+  }
+
+  .navBar--brand-position {
+    z-index: 2;
+  }
+}
