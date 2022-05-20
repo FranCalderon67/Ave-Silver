@@ -17,6 +17,9 @@
   display: flex;
   gap: 2rem;
   list-style-type: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .nav--link {
@@ -29,7 +32,8 @@
 }
 
 .nav--link:hover {
-  border-bottom: 3px solid black;
+  color: #967167;
+  border-bottom: 3px solid #967167;
 }
 
 @media screen and (max-width: 834px) {

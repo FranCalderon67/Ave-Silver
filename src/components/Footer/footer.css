@@ -1,6 +1,6 @@
 footer {
   background-color: #f8f8f8;
-  margin-top: 1000px;
+  margin-top: 2rem;
   height: 350px;
 }
 
@@ -13,7 +13,6 @@ footer {
 .logoFooter {
   width: 69px;
   height: 58px;
-
   margin-top: 32px;
 }
 

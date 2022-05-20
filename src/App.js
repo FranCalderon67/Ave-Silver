@@ -1,4 +1,7 @@
 import React from "react";
+import { Routes, Route } from 'react-router-dom';
+
+import { AboutAve } from './pages/AboutAve/Index'
 
 import { NavBar } from './components/NavBar/Index';
 import Home from "./components/Home/Home";
@@ -10,7 +13,30 @@ function App() {
   return (
     <>
       <NavBar />
-      <Home />
+      <Routes>
+        <Route 
+          path={"/"} 
+          element={<Home />}  
+        />
+        <Route 
+          path={"/piezas"} 
+          element={<Home />}  
+        />
+        <Route 
+          path={"/piedras"} 
+          element={<Home />}  
+        />
+        <Route 
+          path={"/sobreAve"} 
+          element={<AboutAve />}  
+        />
+        <Route 
+          path={"/contacto"} 
+          element={<Home />}  
+        />
+        
+
+      </Routes>
       <Footer />
     </>
   );

@@ -18,24 +18,24 @@ export function Nav() {
       <nav className={`navBar--nav-layout navBar--nav-size navBar--nav--position ${OPEN_NAV}`}>
           <ul className="nav--ul-layout">
               <li>
-                  <Link className="nav--link" to={'./piezas'}>
+                  <Link className="nav--link" to={'/piezas'}>
                       PIEZAS
                   </Link>
               </li>
               <li>
-                  <Link className="nav--link" to={'./piedras'}>
+                  <Link className="nav--link" to={'/piedras'}>
                     PIEDRAS
                   </Link>
               </li>
           </ul>
           <ul className="nav--ul-layout">
               <li>
-                  <Link className="nav--link" to={'./sobreAve'}>
+                  <Link className="nav--link" to={'/sobreAve'}>
                     SOBRE AVE
                   </Link>
               </li>
               <li>
-                  <Link className="nav--link" to={'./contacto'}>
+                  <Link className="nav--link" to={'/contacto'}>
                     CONTACTO
                   </Link>
               </li>

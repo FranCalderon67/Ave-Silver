@@ -3,15 +3,26 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  height: 698px;
+}
+
+.homeBackground{
+  width: 100vw;
+  height: 874px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-color: #f7efef;
+  mix-blend-mode: darken;
 }
 
 /* En este hay que hacer medias */
 .backgroundImg {
-  z-index: -1;
-  position: absolute;
-  width: 1075px;
-  height: 700px;
-  opacity: 0.45;
+  width: 60%;
+  height: 100%;
+  opacity: 0.42;
+  mix-blend-mode:luminosity;
 }
 
 .headerImg {
@@ -154,6 +165,8 @@ video {
 }
 
 .imgCollage {
+  position: relative;
+  min-height: 52rem;
   margin-top: 64px;
   margin-left: 250px;
 }

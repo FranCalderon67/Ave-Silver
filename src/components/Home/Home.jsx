@@ -1,11 +1,16 @@
 import React from "react";
+
+import { ContactForm } from "../ContactForm/Index";
+
 import "./home.css";
 
 function Home() {
   return (
     <>
-      <img className="backgroundImg container" src="https://i.ibb.co/zG2FmNh/background-Home.png" alt="Background" />
-      <main className="container-fluid">
+    <div className="homeBackground">
+      <img className="backgroundImg " src="https://i.ibb.co/DrDsBMP/homeBg.png" alt="Background" />
+    </div>
+      <main>
         <section>
           <div className="flexContainer">
             <div className="textPosition">
@@ -61,6 +66,9 @@ function Home() {
             <img className="imgColgante" src="https://i.ibb.co/Cw7PsF8/home-Colgante.jpg" alt="IMAGEN" />
             <img className="imgCollar" src="https://i.ibb.co/zGYNvNW/home-Collar.jpg" alt="IMAGEN" />
           </div>
+        </section>
+        <section className="contactSection">
+          <ContactForm />
         </section>
       </main>
     </>

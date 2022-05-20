@@ -1,0 +1,167 @@
+.aboutUsInfo-layout{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1/5 auto;
+    grid-template-rows: .2fr auto;
+    column-gap: 5rem;
+    padding: 1rem 4rem;
+}
+
+.aboutUsTitle-position{
+    grid-row: 1/2;
+}
+
+.aboutUsTitle--span {
+    font-size: 18px;
+    color: #967167;
+}
+
+.aboutUsTitle--h1{
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.aboutUs--imgContainer{
+    height: 100%;
+    grid-row: 1/3;
+}
+
+.aboutUs--img-size {
+    width: 25rem;
+    height: 30rem;
+}
+
+.aboutUs--img-bg{
+    border-top-left-radius: 30rem;
+    border-top-right-radius: 30rem;
+    background-image: url('https://i.ibb.co/HGN45n7/about-Ave-Fs-Img.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.aboutUs--img-filters {
+    filter: contrast(.8) saturate(.8) brightness(1.1);
+}
+
+.img--logo{
+    position: absolute;
+    width: 5.5rem;
+    left: -2.5rem;
+    bottom: -2.5rem;
+}
+
+.aboutUsGallery--ul{
+    list-style-type: none;
+    width: 90%;
+    margin: 0 auto;
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+.aboutUsGallery--li{
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutUsGallery--leftPic{
+    background-image: url('https://i.ibb.co/bmk91Sb/about-Gallery1.jpg');
+    
+}
+
+.aboutUsGallery--middlePic{
+    background-image: url('https://i.ibb.co/pzRVQh1/about-Gallery2.jpg');
+    margin-top: 6rem;
+}
+
+.aboutUsGallery--rightPic{
+    background-image: url('https://i.ibb.co/D5dfM2q/about-Gallery3.jpg');
+}
+
+@media screen and (max-width: 576px) {
+    .aboutUsInfo-layout{
+        grid-template-columns: 1fr;
+        grid-template-rows: .2fr auto auto;
+        justify-items: center;
+        padding: 1rem 2rem;
+    }
+
+    .aboutUsTitle--span {
+        display: none;
+    }
+
+    .aboutUs--imgContainer{
+        grid-row: 2/3;
+    }
+
+    .aboutUs--img-size{
+        width: 17.5rem;
+        height: 20.5rem;
+    }
+
+    .img--logo{
+        position: absolute;
+        width: 5rem;
+        left: -2rem;
+        bottom: -1.8rem;
+    }
+
+    .aboutUs-pContainer{
+        margin-top: 2rem;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .aboutUsGallery--ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutUsGallery--li{
+        width: 300px;
+        height: 460px;
+    }
+
+    .aboutUsGallery--middlePic{
+        margin-top: 0;
+    }
+} 
+
+@media screen and (min-width: 577px) and (max-width: 834px) {
+    .aboutUsInfo-layout{
+        grid-template-columns: 1fr;
+        grid-template-rows: .2fr auto auto;
+        justify-items: center;
+        padding: 1rem 2rem;
+    }
+
+    .aboutUs--imgContainer{
+        grid-row: 2/3;
+    }
+
+    .img--logo{
+        position: absolute;
+        width: 5rem;
+        left: -1.6rem;
+        bottom: -1rem;
+    }
+
+    .aboutUs-pContainer{
+        margin-top: 2rem;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .aboutUsGallery--ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}

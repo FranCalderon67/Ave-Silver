@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -42,4 +42,9 @@ button.btn1:hover {
 
 button.btn2:hover {
   color: #967167;
+}
+
+.contactSection {
+  padding: 4rem 0;
+  background-color: #F1EDEA;
 }
