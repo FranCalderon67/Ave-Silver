@@ -58,16 +58,29 @@
 
 .contactForm-Style2 {
   width: 60%;
-  height: 22rem;
   background-color: #ffff;
-  padding: 2rem 4rem;
+  padding: 3rem 4rem;
   border: 1px solid black;
 }
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 576px) {
+  .contactForm--inquiry {
+    height: 10rem;
+  }
+
   .contactFormContainer--layout {
-    display: flex;
-    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .contactForm--size {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 834px) {
+  .contactFormContainer--layout {
     align-items: center;
     gap: 2rem;
     padding: 1rem;

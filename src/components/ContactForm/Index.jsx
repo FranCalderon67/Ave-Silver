@@ -1,6 +1,6 @@
 import "./contactForm.css";
 
-export function ContactForm({style= null}) {
+export function ContactForm({style = null}) {
     const STYLE = (style === 2) && 'contactForm-Style2'
 
   return (

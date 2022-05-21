@@ -1,0 +1,141 @@
+.contact-title {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #967167;
+  font-size: 22px;
+}
+
+.contact--gallerySection{
+  background-color: #F1EDEA;
+  padding: 4rem 0;
+}
+
+.contactgallery--h2 {
+  text-align: center;
+  margin-bottom: 4rem;
+  color: #967167;
+  font-size: 72px;
+}
+
+.contactgallery--p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.contactGallery--ul-layout {
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  list-style-type: none;
+  gap: 1.5rem;
+  padding: 4rem 0rem;
+}
+
+.contactGallery--li-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contactGallery--img-bg {
+  background-size: 120%;
+}
+
+.contactGallery--bigPic-size {
+  width: 400px;
+  height: 400px;
+}
+
+.contactGallery--smallPic-size {
+  width: 100%;
+  height: 160px;
+}
+
+.contactGallery--pic1 {
+  background-image: url("https://i.ibb.co/RjFpnHH/contact-Gallery-img1.jpg");
+  background-position: top;
+}
+
+.contactGallery--pic2 {
+  background-image: url("https://i.ibb.co/RjFpnHH/contact-Gallery-img1.jpg");
+  background-position: center 70%;
+}
+
+.contactGallery--pic3 {
+  background-image: url("https://i.ibb.co/XYGWXq7/contact-Gallery-img2.jpg");
+  background-position: 90% 10%;
+}
+
+.contactGallery--pic4 {
+  background-image: url("https://i.ibb.co/XYGWXq7/contact-Gallery-img2.jpg");
+  position: relative;
+  background-position: right 73%;
+}
+
+.contactGallery--pic4-filter {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.562);
+  color: #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+  .contactgallery--h2 {
+    font-size: 60px;
+    margin-bottom: 2rem;
+  }
+
+  .contactgallery--p {
+    padding: 0 0.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .contactGallery--ul-layout {
+    padding: 1rem 0rem;
+  }
+
+  .contactGallery--li-layout {
+    gap: 1rem;
+  }
+
+  .contactGallery--bigPic-size {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .contactGallery--smallPic-size {
+    max-width: 100%;
+    max-height: 4rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 834px) {
+  .contactgallery--p {
+    padding: 0 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .contactGallery--ul-layout {
+    padding: 1rem 0rem;
+  }
+
+  .contactGallery--li-layout {
+    gap: 0.8rem;
+  }
+
+  .contactGallery--bigPic-size {
+    width: 270px;
+    height: 270px;
+  }
+
+  .contactGallery--smallPic-size {
+    max-width: 100%;
+    height: 100px;
+  }
+}

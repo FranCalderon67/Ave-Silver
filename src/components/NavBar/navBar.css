@@ -16,6 +16,7 @@
 
 .navBar--brand-position {
   position: absolute;
+  margin: 0 auto;
   top: 0.3rem;
   left: 43%;
   right: 43%;
