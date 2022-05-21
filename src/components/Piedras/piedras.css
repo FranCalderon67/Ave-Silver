@@ -1,0 +1,10 @@
+.piedras-container {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  column-gap: 50px;
+}
+
+.card {
+  border: unset;
+}

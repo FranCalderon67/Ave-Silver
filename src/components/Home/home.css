@@ -6,7 +6,7 @@
   height: 698px;
 }
 
-.homeBackground{
+.homeBackground {
   width: 100vw;
   height: 874px;
   position: absolute;
@@ -22,7 +22,7 @@
   width: 60%;
   height: 100%;
   opacity: 0.42;
-  mix-blend-mode:luminosity;
+  mix-blend-mode: luminosity;
 }
 
 .headerImg {
@@ -30,6 +30,14 @@
   height: 520px;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
+}
+
+.headerLogo {
+  position: absolute;
+  width: 5.5rem;
+  left: 93rem;
+  bottom: 9.5rem;
+  z-index: 2;
 }
 
 .textPosition {
@@ -51,6 +59,10 @@
   height: 50px;
   border: 1px solid #967167;
   margin-top: 48px;
+}
+
+.headerButton:hover {
+  color: #967167;
 }
 
 .videoBackground {

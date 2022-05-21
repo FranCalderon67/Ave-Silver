@@ -7,9 +7,10 @@ import "./home.css";
 function Home() {
   return (
     <>
-    <div className="homeBackground">
-      <img className="backgroundImg " src="https://i.ibb.co/DrDsBMP/homeBg.png" alt="Background" />
-    </div>
+      <div className="homeBackground">
+        <img className="headerLogo" src="https://i.ibb.co/k2vGBdZ/quality-Logo.png" alt="logo de calidad" />
+        <img className="backgroundImg " src="https://i.ibb.co/DrDsBMP/homeBg.png" alt="Background" />
+      </div>
       <main>
         <section>
           <div className="flexContainer">
