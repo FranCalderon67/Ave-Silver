@@ -1,10 +1,76 @@
 .piedras-container {
-  display: inline-grid;
-  grid-template-columns: auto auto;
-  padding: 10px;
-  column-gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+  padding: 10px 24px;
+  gap: 3rem 2rem;
 }
 
 .card {
   border: unset;
+  background-color: transparent;
+}
+
+.piedraCard--row {
+  display: grid;
+  grid-template-columns: 30% auto;
+  grid-template-rows: repeat(2, max-content);
+  column-gap: 1.5rem;
+}
+
+.piedraCard--imgContainer{
+  grid-column: 1/2;
+  grid-row: 1/3;
+  justify-self: center;
+  align-self: center;
+  width: 100%;
+}
+
+.piedrasCard--img{
+  width: 166px;
+  height: 166px;
+  border-radius: 50%;
+}
+
+.piedraCard--titleCol{
+  grid-column: 2/3;
+  color: #967167;
+  font-size: 18px;
+}
+
+.piedraCard--pCol {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 775px) {
+  .piedras-container {
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  }
+
+  .piedraCard--row {
+    display: grid;
+    grid-template-rows: repeat(3, max-content);
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .piedraCard--imgContainer{
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.3rem;
+  }
+
+  .piedraCard--titleCol{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: max-content;
+  }
+
+  .piedraCard--pCol {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    text-align: center;
+  }
 }

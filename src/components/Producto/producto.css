@@ -1,5 +1,25 @@
 .producto-container {
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(396px, 1fr));
+  gap: 2rem 1rem;
+  padding: 4rem 2rem;
+}
+
+.card{
+  height: max-content;
+}
+
+.card-img-top{
+  height: 510px;
+}
+
+@media screen and (max-width: 873px) {
+  .producto-container {
+    grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+  }
+
+  .card-img-top{
+    height: 450px;
+  }
+
 }
