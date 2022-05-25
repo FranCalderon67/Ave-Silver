@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import LoadingRing from "../LoadingRing/LoadingRing";
 import { exportarProductos } from "../../productos";
 
 import "./producto.css";
@@ -48,7 +48,7 @@ function ContenedorProducto() {
       });
   });
 
-  return <>{cargando ? <h1>Cargando...</h1> : <section>{<ListaProducto productos={productos} />}</section>}</>;
+  return <>{cargando ? <LoadingRing /> : <section>{<ListaProducto productos={productos} />}</section>}</>;
 }
 
 export default ContenedorProducto;

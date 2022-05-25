@@ -65,9 +65,9 @@ function Home() {
           <div className="imgCollage">
             <img className="imgAnillo" src="https://i.ibb.co/ng44KcK/home-Mano-Con-Anillo.jpg" alt="IMAGEN" />
             <img className="imgAros" src="https://i.ibb.co/RhMy6vy/homeAros.jpg" alt="IMAGEN" />
-            <img className="imgAnillos" src="https://i.ibb.co/Fkvx1MH/home-Anillos.jpg" alt="IMAGEN" />
-            <img className="imgColgante" src="https://i.ibb.co/Cw7PsF8/home-Colgante.jpg" alt="IMAGEN" />
             <img className="imgCollar" src="https://i.ibb.co/zGYNvNW/home-Collar.jpg" alt="IMAGEN" />
+            <img className="imgColgante" src="https://i.ibb.co/Cw7PsF8/home-Colgante.jpg" alt="IMAGEN" />
+            <img className="imgAnillos" src="https://i.ibb.co/Fkvx1MH/home-Anillos.jpg" alt="IMAGEN" />
           </div>
         </section>
         <section className="contactSection">

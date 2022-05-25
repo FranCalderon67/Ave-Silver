@@ -122,7 +122,7 @@ const piedras = [
 const exportarPiedras = new Promise((res, rej) => {
   setTimeout(() => {
     res(piedras);
-  }, 3500);
+  }, 2500);
 });
 
 export { exportarPiedras };

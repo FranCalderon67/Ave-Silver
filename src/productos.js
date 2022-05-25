@@ -218,7 +218,7 @@ const productos = [
 const exportarProductos = new Promise((res, rej) => {
   setTimeout(() => {
     res(productos);
-  }, 3500);
+  }, 2500);
 });
 
 export { exportarProductos };
