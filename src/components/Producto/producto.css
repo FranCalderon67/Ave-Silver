@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
 .producto-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(396px, 1fr));
@@ -5,12 +7,23 @@
   padding: 4rem 2rem;
 }
 
-.card{
+.card {
   height: max-content;
 }
 
-.card-img-top{
+.card-img-top {
   height: 510px;
+}
+
+.card-title {
+  font-family: "raleway";
+}
+
+.consulta-link {
+  font-family: "raleway";
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 873px) {
@@ -18,8 +31,7 @@
     grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
   }
 
-  .card-img-top{
+  .card-img-top {
     height: 450px;
   }
-
 }

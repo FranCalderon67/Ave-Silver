@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { ContactForm } from "../ContactForm/Index";
 
 import "./home.css";
@@ -18,9 +18,11 @@ function Home() {
               <p className="headerText">
                 AMULETOS <br /> CREADOS CON LA SABIDURIA DE LA MANO
               </p>
-              <button type="button" className="headerButton ">
-                VER PIEZAS
-              </button>
+              <Link to={"/piezas"}>
+                <button type="button" className="headerButton ">
+                  VER PIEZAS
+                </button>
+              </Link>
             </div>
             <div>
               <img className="headerImg" src="https://i.ibb.co/SQVQfCB/header-Model.jpg" alt="Imagen" />
