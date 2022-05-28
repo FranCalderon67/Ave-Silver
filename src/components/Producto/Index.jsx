@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+
 import LoadingRing from "../LoadingRing/LoadingRing";
-import { exportarProductos } from "../../productos";
+import { filtrarProductos } from "../../productos";
 
 import "./producto.css";
 
@@ -14,7 +16,7 @@ const Producto = ({ item }) => {
         <div>
           <h5 className="card-title">{item.nombre}</h5>
         </div>
-        <a className="consulta-link" href={`https://wa.me/5219841082450?text=Me%20interesa%20el%20prducto%20${item.nombre}%20de%20tu%20web`} target={"_blank"} rel="noreferrer">
+        <a className="consulta-link" href={`https://wa.me/5219841082450?text=Me%20interesa%20el%20producto%20${item.nombre}%20de%20tu%20web`} target={"_blank"} rel="noreferrer">
           Consultar
         </a>
       </div>
@@ -34,19 +36,22 @@ function ListaProducto({ productos }) {
 }
 
 function ContenedorProducto() {
+  const { category } = useParams()
   const [productos, setProductos] = useState();
-  const [cargando, setCargando] = useState(true);
-
+  const [cargando, setCargando] = useState(null);
+  
   useEffect(() => {
-    exportarProductos
+    setCargando(true)
+    filtrarProductos( { category } )
       .then((res) => {
         setProductos(res);
-        setCargando(false);
+        setCargando(false)
       })
       .catch((error) => {
         console.log("error=>", error);
       });
-  });
+      
+  }, [category]);
 
   return <>{cargando ? <LoadingRing /> : <section>{<ListaProducto productos={productos} />}</section>}</>;
 }

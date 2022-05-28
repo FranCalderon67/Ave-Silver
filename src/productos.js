@@ -215,10 +215,17 @@ const productos = [
   },
 ];
 
-const exportarProductos = new Promise((res, rej) => {
-  setTimeout(() => {
-    res(productos);
-  }, 2500);
-});
+const filtrarProductos = ( { category } ) => {
+  const EXPORTAR_PRODUCTOS = new Promise((res, rej) => {
+    setTimeout(() => {
+      const LIST = !category ? productos : productos.filter( pieza => {
+        return pieza.categoria === category
+      });
+      res(LIST)
+    }, 2500);
+  });
 
-export { exportarProductos };
+  return EXPORTAR_PRODUCTOS
+} 
+
+export { filtrarProductos };

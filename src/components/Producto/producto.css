@@ -2,7 +2,7 @@
 
 .producto-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(396px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(396px, 1fr));
   gap: 2rem 1rem;
   padding: 4rem 2rem;
 }
