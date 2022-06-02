@@ -1,7 +1,7 @@
 import "./contactForm.css";
 
-export function ContactForm({style = null}) {
-    const STYLE = (style === 2) && 'contactForm-Style2'
+export function ContactForm({ style = null }) {
+  const STYLE = style === 2 && "contactForm-Style2";
 
   return (
     <article className="contactFormContainer--layout">
@@ -12,15 +12,11 @@ export function ContactForm({style = null}) {
       <form action="https://formsubmit.co/16c1b46b4a176fbc1a7a4163c936856b" method="POST" className={`contactForm--size contactForm--position contactForm--layout ${STYLE}`}>
         <label className="contactForm--label-layout">
           Email:
-          <input className="contactForm--email" type={"email"} name={'email'} placeholder={"email@ejemplo.com"} />
+          <input className="contactForm--email" type={"email"} name={"email"} placeholder={"email@ejemplo.com"} />
         </label>
         <label className="contactForm--label-layout">
           Escribe tu consulta:
-          <textarea
-            className="contactForm--inquiry"
-            name={'consulta'}
-            placeholder={"Tu consulta aquí"}
-          />
+          <textarea className="contactForm--inquiry" name={"consulta"} placeholder={"Tu consulta aquí"} />
         </label>
         <button className="btn1">ENVIAR</button>
       </form>

@@ -298,6 +298,14 @@ video {
     height: 600px;
   }
 
+  .productsList {
+    margin-left: 15px;
+  }
+
+  .listDot {
+    margin-left: 15px;
+  }
+
   .imgCollage {
     margin-bottom: 7rem;
   }
@@ -342,8 +350,7 @@ video {
     height: 229px;
   }
 }
-
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 320px) and (max-width: 576px) {
   .flexContainer {
     display: flex;
     flex-direction: column-reverse;
@@ -410,19 +417,17 @@ video {
 
   .productsList {
     font-size: 12px;
-    line-height: 16px;
-
-    margin-left: 32px;
+    margin-left: 10px;
   }
 
   .listDot {
-    margin-left: 30px;
+    margin-left: 10px;
   }
 
   .imgCollage {
     margin-bottom: 7rem;
     justify-content: center;
-    margin-left: 33%;
+    margin-left: 40%;
   }
 
   .imgAnillo {
