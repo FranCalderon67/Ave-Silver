@@ -41,6 +41,27 @@ footer {
   color: black;
 }
 
+.footer--contactIcons{
+  list-style-type: none;
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.contactIcon{
+  width: 1rem;
+}
+
+.contactIcons--link{
+  text-decoration: none;
+  color: black;
+}
+
+.contactIcons--link:hover {
+  color: #967167;
+  font-weight: 600;
+}
+
 .footerText {
   font-style: normal;
   font-weight: 400;
@@ -48,4 +69,12 @@ footer {
   line-height: 16px;
   margin-top: 32px;
   color: #28241b;
+}
+
+
+@media screen and (max-width: 577px) {
+  .footer--contactIcons{
+    flex-direction: column;
+    align-items: center;
+  }
 }

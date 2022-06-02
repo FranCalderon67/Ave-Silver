@@ -1,0 +1,144 @@
+.notFound-layout {
+  display: grid;
+  grid-template-rows: max-content auto auto;
+  padding-top: 4rem;
+}
+
+.notFound-bg {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  mix-blend-mode: darken;
+}
+
+.notFoundBg-img {
+  background-image: url("https://i.ibb.co/DrDsBMP/homeBg.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: 0.42;
+  mix-blend-mode: luminosity;
+}
+
+.notFound--errorMessage {
+  justify-self: center;
+}
+
+.errorMessage--error {
+  font-size: 24px;
+  margin-bottom: -8rem;
+}
+
+.errorMessage--404 {
+  font-size: 288px;
+  position: relative;
+}
+
+.cero-img {
+  width: 5.3rem;
+  height: 10.6rem;
+  background-image: url("https://i.ibb.co/L9DWY8h/ceroBg.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 9.4rem;
+  left: 11.9rem;
+  z-index: -1;
+}
+
+.notFound--ctaSection {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.notFound--piezasCta {
+  justify-self: center;
+  font-size: 24px;
+  margin-left: 30%;
+}
+
+.notFound--backCta {
+  margin-top: 8rem;
+  justify-self: center;
+}
+
+.notFound--ctaButton {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  transition: all 300ms;
+  
+}
+
+.cta-arrow {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  animation-name: ctaButton;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.notFound--ctaButton:hover {
+  color: #967167;
+}
+
+@keyframes ctaButton {
+  0% {
+    transform: translateX(0%);
+  }
+
+  50% {
+    transform: translateX(10%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 834px) {
+  .notFoundBg-img {
+    width: 100%;
+  }
+
+  .notFound--piezasCta {
+    margin-left: 45%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .notFoundBg-img {
+    width: 100%;
+  }
+
+  .errorMessage--error {
+    margin-bottom: -5rem;
+  }
+
+  .errorMessage--404 {
+    font-size: 200px;
+  }
+
+  .cero-img {
+    width: 3.7rem;
+    height: 7.3rem;
+    top: 6.5rem;
+    left: 8.3rem;
+    z-index: -1;
+  }
+
+  .notFound--piezasCta {
+    margin-left: 40%;
+    font-size: 20px;
+  }
+}

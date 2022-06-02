@@ -27,7 +27,7 @@ const piedras = [
     nombre: "GRANATE",
     descripcion:
       "Energizante y regeneradora. Aporta la serenidad y pasión cuando es apropiado. Inspira amor y el compromiso. Util en momento de crisis, ayuda la superación de situaciones adversas. Abre el corazon y otorga confianza en uno mismo.",
-    imagen: "https://i.ibb.co/HhrHMDM/cd6a1913b52a0510ba42456eca7b9406.png",
+    imagen: "https://i.ibb.co/5ntLjgs/piedra-granate.png",
   },
 
   {

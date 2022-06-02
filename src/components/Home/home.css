@@ -74,7 +74,7 @@
 }
 
 .videoSection {
-  margin-top: 4rem;
+  margin-top: -1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -361,7 +361,7 @@ video {
 
   .homeBackground {
     width: 100%;
-    height: 95%;
+    height: 112%;
   }
 
   .backgroundImg {
@@ -376,10 +376,9 @@ video {
   }
 
   .textPosition {
+    margin-left: 50px;
     text-align: start;
-    margin-left: 85px;
-    width: 375px;
-    height: 667px;
+    width: auto;
   }
 
   .headerText {
@@ -404,6 +403,10 @@ video {
 
   .videoDotDown {
     margin-top: 10px;
+  }
+
+  .inspirado {
+    width: auto;
   }
 
   .homeDescription {
