@@ -369,10 +369,9 @@ video {
   }
 
   .textPosition {
+    margin-left: 50px;
     text-align: start;
-    margin-left: 85px;
-    width: 375px;
-    height: 667px;
+    width: auto;
   }
 
   .headerText {
@@ -397,6 +396,10 @@ video {
 
   .videoDotDown {
     margin-top: 10px;
+  }
+
+  .inspirado {
+    width: auto;
   }
 
   .homeDescription {
