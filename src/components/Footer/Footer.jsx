@@ -17,17 +17,19 @@ function Footer() {
               <AiFillInstagram className="instagramLogo" />
             </a>
 
-            <FaWhatsappSquare className="wppLogo" />
+            <a href={`https://wa.me/5219841082450?text=`} target={"_blank"} rel="noreferrer">
+              {<FaWhatsappSquare className="wppLogo" />}
+            </a>
           </div>
           <ul className="footer--contactIcons">
             <li className="contactIcons--link">
-              <img className="contactIcon" src={require("./imagenes/telIcon.png")} alt='icono de telefono' />
+              <img className="contactIcon" src={require("./imagenes/telIcon.png")} alt="icono de telefono" />
               <span> +52 984 108 24 50</span>
             </li>
             <li>
               <a className="contactIcons--link" href={"mailto:ave.silverandcrystals@gmail.com"}>
-                <img className="contactIcon" src={require("./imagenes/gmailIcon.png")} alt='icono de google' />
-                <span> ave.silverandcrystals@gmail.com</span> 
+                <img className="contactIcon" src={require("./imagenes/gmailIcon.png")} alt="icono de google" />
+                <span> ave.silverandcrystals@gmail.com</span>
               </a>
             </li>
           </ul>
