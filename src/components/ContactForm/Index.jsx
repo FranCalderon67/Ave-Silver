@@ -1,7 +1,7 @@
 import "./contactForm.css";
 
 export function ContactForm({ style = null }) {
-  const STYLE = style === 2 && "contactForm-Style2";
+  const STYLE = (style === 2) ? "contactForm-Style2" : null;
 
   return (
     <article className="contactFormContainer--layout">

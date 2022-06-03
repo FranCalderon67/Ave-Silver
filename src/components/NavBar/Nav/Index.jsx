@@ -1,10 +1,15 @@
-import { useState } from 'react'
-import { Link } from "react-router-dom";
+import { useState, useEffect } from 'react'
+import { Link, useLocation } from "react-router-dom";
 
 import './nav.css'
 
 export function Nav() {
   const [ isNavOpen, setIsNavOpen ] = useState(false);
+  const URL = useLocation()
+  
+  useEffect( () => {
+    setIsNavOpen(false)
+  }, [URL.pathname])
 
   const OPEN_NAV = isNavOpen && 'navbar--nav--open'
 
