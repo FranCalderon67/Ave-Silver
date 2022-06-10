@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-import LoadingRing from "../LoadingRing/LoadingRing";
+import { Loading } from "../Loading/Index";
 import { filtrarProductos } from "../../productos";
 
 import "./producto.css";
@@ -53,7 +53,7 @@ function ContenedorProducto() {
       
   }, [category]);
 
-  return <>{cargando ? <LoadingRing /> : <section>{<ListaProducto productos={productos} />}</section>}</>;
+  return <>{cargando ? <Loading /> : <section>{<ListaProducto productos={productos} />}</section>}</>;
 }
 
 export default ContenedorProducto;

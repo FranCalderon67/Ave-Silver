@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { exportarPiedras } from "../../piedras";
-import LoadingRing from "../LoadingRing/LoadingRing";
+import { Loading } from "../Loading/Index";
 import "./piedras.css";
 
 const Piedra = ({ item }) => {
@@ -51,7 +51,7 @@ function ContenedorPiedra() {
       });
   });
 
-  return <>{cargando ? <LoadingRing /> : <section className="container">{<ListaPiedra piedras={piedras} />}</section>}</>;
+  return <>{cargando ? <Loading /> : <section className="container">{<ListaPiedra piedras={piedras} />}</section>}</>;
 }
 
 export default ContenedorPiedra;
