@@ -6,7 +6,7 @@ export function ContactForm({ style = null }) {
   return (
     <article className="contactFormContainer--layout">
       <div>
-        <h1 className="contactForm--h1">¡Hablemos!</h1>
+        <h2 className="contactForm--h2">¡Hablemos!</h2>
         <p className="contactForm--p">Ave te invita a jugar con tu imaginación y ser parte del proceso creativo de tu amuleto, creando una pieza personalizada y única para ti.</p>
       </div>
       <form action="https://formsubmit.co/ave.silverandcrystals@gmail.com" method="POST" className={`contactForm--size contactForm--position contactForm--layout ${STYLE}`}>

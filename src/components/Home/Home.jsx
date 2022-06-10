@@ -15,9 +15,9 @@ function Home() {
         <section>
           <div className="flexContainer">
             <div className="textPosition">
-              <p className="headerText">
+              <h1 className="headerText">
                 AMULETOS <br /> CREADOS CON LA SABIDURIA DE LA MANO
-              </p>
+              </h1>
               <Link to={"/piezas"}>
                 <button type="button" className="headerButton ">
                   VER PIEZAS

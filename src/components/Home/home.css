@@ -50,7 +50,7 @@
 
 .headerText {
   font-weight: 400;
-  font-size: 48px;
+  font-size: 50px;
   line-height: 49px;
   color: #28241b;
 }
@@ -136,6 +136,7 @@ video {
 .inspirado {
   width: 404px;
   height: 147px;
+  font-family: 'Noto Serif Display', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 48px;

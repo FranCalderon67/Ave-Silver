@@ -12,6 +12,9 @@
 }
 
 .contactgallery--h2 {
+  font-family: "Noto Serif Display", serif;
+  font-size: 48px;
+  font-weight: 400;
   text-align: center;
   margin-bottom: 4rem;
   color: #967167;

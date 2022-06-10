@@ -44,13 +44,9 @@
   padding: 0;
   margin: 0;
 }
-.card-text {
-  font-family: "Raleway";
-  font-weight: 400;
-}
 
 .card-title {
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
 

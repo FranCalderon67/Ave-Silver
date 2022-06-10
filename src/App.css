@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Raleway&display=swap');
 
 * {
   margin: 0px;
@@ -16,9 +16,14 @@ img {
   height: auto;
 }
 
+p, span, a {
+  font-family: 'Raleway', sans-serif;
+}
+
 h1 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Noto Serif Display', serif;
   font-size: 48px;
+  font-weight: 800;
 }
 
 button {
