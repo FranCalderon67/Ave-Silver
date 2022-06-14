@@ -1,0 +1,52 @@
+{
+  "navBar": {
+    "piezas": "PRODUCTS",
+    "piedras": "STONES",
+    "sobreAve": "ABOUT AVE",
+    "contacto": "CONTACT"
+  },
+
+  "subNav": {
+    "todo": "ALL PRODUCTS",
+    "colgantes": "NECKLACES",
+    "anillos": "RINGS",
+    "brazaletes": "BRACELETS",
+    "aros": "EARRINGS",
+    "prendedores": "PINS",
+    "tiaras": "TIARAS"
+  },
+
+  "home": {
+    "textoAmuletos": "TALISMANS",
+    "textoCreados": "CREATED WITH THE WISDOM OF THE HAND",
+    "boton": "PRODUCTS",
+    "textoAve": "Ave it's made through the most traditional methods of goldsmithing, creating a totally handmade product, taking care of every detail so it can reach your hands and your heart",
+    "inspirado": "Inspired by Nature.",
+    "rodeado": "Surrounden by the jungle, warm sea, fresh and cool cenotes, palm trees and a incredibly inspiring fauna,",
+    "rodeadoBolt": "Ave, from Mexico to the world.",
+    "listAnillo": "RINGS",
+    "listAmuleto": "TALISMANS",
+    "listAros": "EARRINGS",
+    "listColgantes": "NECKLACES"
+  },
+
+  "contacto": {
+    "hablemos": "GET IN TOUCH!",
+    "invita": "Ave invites you to play with your imagination and to be part of the creative process of your talisman, creating a personalized and unique piece for you.",
+    "emailPlaceHolder": "email@example.com",
+    "consulta": "Write your question:",
+    "consultaPlaceHolder": "Your question here",
+    "boton": "SEND",
+    "seguinos": "Follow us",
+    "seguinosTexto": "Follow us on instagram and keep up to date about new products and news."
+  },
+
+  "sobreAve": {
+    "sobre": "About AVE",
+    "parrafoUno": "The Ave dream begins because of my fascination with crystals, that i discovered in a trip to India in 2015, there my ayurdenic doctor recommended that i could use certain gems to be able to feel their properties and heal.",
+    "parrafoDos": "It was part of an incredible therapy that i took and ended up being an inspiration for my restless spirit, this is what it took me to experiment with goldsmithing. I studied this beatiful craft for three years at the Pedro Figari School of Arts and Handcrafts in Uruguay, where i was born.",
+    "parrafoTres": "Now, living in the Yucatan Peninsula, Mexico, surrounded by jungle, warm sea, cool cenotes, palm trees and a incredibly inspiring fauna, Ave is a constant experiment of creation that connects me with my soul and comes out of my wildest and most intuitive realm.",
+    "parrafoCuatro": "Uniques pieces are created with the wisdom of the hand, from melting the metals to the selection of natural stones, in a 100% handmade process.",
+    "parrafoCinco": "Ave is author design, but it also invites you to play with your imagination and be part of the creative process of your talisman, creating a personalized and unique piece for you."
+  }
+}

@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ContactForm } from "../ContactForm/Index";
-
+import { useTranslation } from "react-i18next";
 import "./home.css";
 
 function Home() {
+  const [t, i18n] = useTranslation("global");
   return (
     <>
       <div className="homeBackground">
@@ -16,11 +17,12 @@ function Home() {
           <div className="flexContainer">
             <div className="textPosition">
               <h1 className="headerText">
-                AMULETOS <br /> CREADOS CON LA SABIDURIA DE LA MANO
+                {t("home.textoAmuletos")}
+                <br /> {t("home.textoCreados")}
               </h1>
               <Link to={"/piezas"}>
                 <button type="button" className="headerButton ">
-                  VER PIEZAS
+                  {t("home.boton")}
                 </button>
               </Link>
             </div>
@@ -33,9 +35,7 @@ function Home() {
           <div className="videoSection">
             <video poster="https://i.ibb.co/G9mjJJp/video-Poster.jpg" controls src={require("./imagenes/VideoAve.mp4")}></video>
             <p className="videoDotUp">.</p>
-            <p className="videoText ">
-              Ave se realiza a través de los métodos más tradicionales de la orfebrería, creando un producto totalmente artesanal, cuidando cada detalle para que llegue a tus manos y a tu corazón.
-            </p>
+            <p className="videoText ">{t("home.textoAve")}</p>
             <p className="videoDotDown">.</p>
           </div>
         </section>
@@ -43,23 +43,26 @@ function Home() {
           <div className="descriptionSection">
             <img className="homeLogo" src={require("./imagenes/logo.png")} alt="LOGO" />
             <p className="made">MADE IN TULUM</p>
-            <p className="inspirado ">Inspirado en la Naturaleza</p>
+            <p className="inspirado ">{t("home.inspirado")}</p>
             <p className="homeDescription">
-              Rodeada de selva, mar tibio, cenotes frescos, palmeras y una fauna increíblemente inspiradora, <strong>Ave, desde México para todo el mundo.</strong>
+              {t("home.rodeado")} <strong>{t("home.rodeadoBolt")}</strong>
             </p>
 
             <div className="list">
               <span className="productsList">
-                ANILLOS<span className="listDot">.</span>
+                {t("home.listAnillo")}
+                <span className="listDot">.</span>
               </span>
               <span className="productsList">
-                AMULETOS <span className="listDot">.</span>
+                {t("home.listAmuleto")}
+                <span className="listDot">.</span>
               </span>
 
               <span className="productsList">
-                AROS<span className="listDot">.</span>
+                {t("home.listAros")}
+                <span className="listDot">.</span>
               </span>
-              <span className="productsList">COLGANTES</span>
+              <span className="productsList">{t("home.listColgantes")}</span>
             </div>
           </div>
           <div className="imgCollage">

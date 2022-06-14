@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react";
 import { exportarPiedras } from "../../piedras";
 import { Loading } from "../Loading/Index";
 import "./piedras.css";
+import { useTranslation } from "react-i18next";
 
 const Piedra = ({ item }) => {
+  const [t, i18n] = useTranslation("global");
   return (
     <>
       <div key={item.id} className="card mb-3">
