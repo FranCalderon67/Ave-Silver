@@ -16,6 +16,7 @@ function Home() {
         <section>
           <div className="flexContainer">
             <div className="textPosition">
+              <img className="headerHand" src="https://i.ibb.co/K0KMbBW/logo-De-Mano.png" alt="Logo de ave" />
               <h1 className="headerText">
                 {t("home.textoAmuletos")}
                 <br /> {t("home.textoCreados")}
@@ -33,7 +34,7 @@ function Home() {
         </section>
         <section className="videoBackground ">
           <div className="videoSection">
-            <video poster="https://i.ibb.co/G9mjJJp/video-Poster.jpg" controls src={require("./imagenes/VideoAve.mp4")}></video>
+            <video poster="https://i.ibb.co/6BkDsJY/videoImg.jpg" controls src={require("./imagenes/VideoAve.mp4")}></video>
             <p className="videoDotUp">.</p>
             <p className="videoText ">{t("home.textoAve")}</p>
             <p className="videoDotDown">.</p>
