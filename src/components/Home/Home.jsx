@@ -1,8 +1,14 @@
 import React from "react";
+
 import { Link } from "react-router-dom";
+
 import { ContactForm } from "../ContactForm/Index";
 import { useTranslation } from "react-i18next";
+import { LazyVideo } from "../HomeVideo/Index";
+
 import "./home.css";
+
+
 
 function Home() {
   const [t, i18n] = useTranslation("global");
@@ -34,7 +40,7 @@ function Home() {
         </section>
         <section className="videoBackground ">
           <div className="videoSection">
-            <video poster="https://i.ibb.co/6BkDsJY/videoImg.jpg" controls src={require("./imagenes/VideoAve.mp4")}></video>
+            <LazyVideo />
             <p className="videoDotUp">.</p>
             <p className="videoText ">{t("home.textoAve")}</p>
             <p className="videoDotDown">.</p>
