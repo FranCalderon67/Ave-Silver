@@ -3,8 +3,9 @@ import "./footer.css";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaWhatsappSquare } from "react-icons/fa";
-
+import { useTranslation } from "react-i18next";
 function Footer() {
+  const [t, i18n] = useTranslation("global");
   return (
     <>
       <footer className="container-fluid">
@@ -34,7 +35,7 @@ function Footer() {
             </li>
           </ul>
 
-          <p className="footerText">© 2022 Todos los derechos reservados</p>
+          <p className="footerText">{t("derechos")}</p>
         </div>
       </footer>
     </>

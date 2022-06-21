@@ -34,8 +34,8 @@
     "hablemos": "GET IN TOUCH!",
     "invita": "Ave invites you to play with your imagination and to be part of the creative process of your talisman, creating a personalized and unique piece for you.",
     "emailPlaceHolder": "email@example.com",
-    "consulta": "Write your question:",
-    "consultaPlaceHolder": "Your question here",
+    "consulta": "Write your message:",
+    "consultaPlaceHolder": "Your message here",
     "boton": "SEND",
     "seguinos": "Follow us",
     "seguinosTexto": "Follow us on instagram and keep up to date about new products and news."
@@ -48,5 +48,77 @@
     "parrafoTres": "Now, living in the Yucatan Peninsula, Mexico, surrounded by jungle, warm sea, cool cenotes, palm trees and a incredibly inspiring fauna, Ave is a constant experiment of creation that connects me with my soul and comes out of my wildest and most intuitive realm.",
     "parrafoCuatro": "Uniques pieces are created with the wisdom of the hand, from melting the metals to the selection of natural stones, in a 100% handmade process.",
     "parrafoCinco": "Ave is author design, but it also invites you to play with your imagination and be part of the creative process of your talisman, creating a personalized and unique piece for you."
-  }
+  },
+
+  "piedras": {
+    "piedraDeLuna": {
+      "nombre": "MOONSTONE",
+      "descripcion": "Strongly connected with the moon and intuition. It reminds us that like the moon, everything growths and wanes and is part of a cycle of changes. Calms intense emotions. Balance male and female emotions."
+    },
+    "aguamarina": {
+      "nombre": "AQUAMARINA",
+      "descripcion": "Provides courage, breaks old defeatist patterns. Calms the mind, sharpens the intellect and clears up confusion. It is useful for closing processes at all levels. Clears blocked communication."
+    },
+    "labradorita": {
+      "nombre": "LABRADORITE",
+      "descripcion": "Protective, raises consciousness and connects with universal energies. Dispel fears and insecurities. Strengthens confidence."
+    },
+    "granate": {
+      "nombre": "GARNET",
+      "descripcion": "Energizing and regenerating. Brings serenity and passion when it's appropriate. Inspires love and commitment. Useful in times of crisis, it helps to overcome adverse situations. It opens the heart and grants self-confidence."
+    },
+    "ambar": {
+      "nombre": "AMBER",
+      "descripcion": "It has intense connections with the earth, healer and cleaner of the environment. It motivates, linking the object of desire with the impulse to achieve it."
+    },
+    "amatista": {
+      "nombre": "AMETHYST",
+      "descripcion": "Powerful and protective of high spiritual vibration. Natural tranquilizer. Power meditation. Helps to overcome addictions. Helps maintain focus. Help in cases of insomnia. It enhances memory and motivation. Dispels anger, fear and anxiety. Transmutes negative energies into positive ones."
+    },
+    "turmalina": {
+      "nombre": "TOURMALINE",
+      "descripcion": "Purifies and transforms dense energy into a lighter vibration. It helps to understand oneself and others, promoting tolerance."
+    },
+    "cuarzo": {
+      "nombre": "QUARTZ",
+      "descripcion": "Most powerful healer and energy amplifier on the planet. It works as a soul cleanser, connecting the physical dimensions with the mind. Tune in to your spiritual purpose. Promotes concentration and activates memory. Promotes universal love."
+    },
+    "topacio": {
+      "nombre": "TOPAZ",
+      "descripcion": "Direct the energy where it is needed most. Relief, heals, stimulates, recharges, restores motivation and aligns. It shines a light on the path, highlights goals, and puts you in touch with internal resources. Crystal of love and good luck. Useful for those who are dedicated to art, it helps you discover your own riches."
+    },
+    "piedraDelSol": {
+      "nombre": "SUN STONE",
+      "descripcion": "Power intuition, good humor. It brings light and vital energy allowing your self to shine. Helps to release hooks on a mental or emotional level, cut ties. It helps you set limits to saying no. Strengthens independence and vitality. Antidepressant. Promotes self-esteem."
+    },
+    "malaquita": {
+      "nombre": "MALACHITE",
+      "descripcion": "Very powerful, it is used with great caution and polished, since it amplifies both positive and negative energies. Protects against radiation of any kind. It helps you make changes, take risks and transform. It helps you express blocked feelings. Intensifies all moods."
+    },
+    "prehnita": {
+      "nombre": "PREHNITA",
+      "descripcion": "Universal love, heal the healer. Contact the higher self. It shows the path of spiritual growth. Relieves phobias, nightmares and deep fears."
+    },
+
+    "crisocola": {
+      "nombre": "CHRYSOCOLA",
+      "descripcion": "Calms, cleanses and reenergizes all the chakras. It expels negative emotions like guilt and reverses destructive emotional programming. Heals sorrow and increases the capacity to love. Brings inner balance."
+    },
+    "amazonita": {
+      "nombre": "AMAZONITE",
+      "descripcion": "Powerful filter. Protects against electromagnetic pollution. Relaxing. Helps the nervous system. It helps to understand different points of view. Relieves emotional trauma. Dispels negative energy and anger."
+    },
+    "lapisLazuli": {
+      "nombre": "LAPIS LAZULI",
+      "descripcion": "Open the third eye. Stimulates enlightenment and enhances work with dreams. Release stress and bring deep peace. Teaches the power of the word. Harmonizes on all levels. It encourages you to take charge of your life and creativity. It helps you face the truth."
+    },
+    "ojoDeTigre": {
+      "nombre": "TIGER'S EYE",
+      "descripcion": "Create a high vibrational state. Protective. Shows the correct use of power. Help us achieve our goals. Clarify our intention. Excellent for persons without commitment. Remedy self-criticism problems and creativity blocks."
+    }
+  },
+  "productos": {
+    "consultar": "Ask for it"
+  },
+  "derechos": "© 2022 All rights reserved"
 }

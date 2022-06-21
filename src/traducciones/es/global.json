@@ -48,5 +48,77 @@
     "parrafoTres": "Ahora radicada en la Península de Yucatan, Mexico, rodeada de selva, mar tibio, cenotes frescos, palmeras y una fauna increíblemente inspiradora, ave es un constante experimento de creación que me conecta con el alma y sale de mi reino mas salvaje e intuitivo.",
     "parrafoCuatro": " Sus piezas únicas son creadas con la sabiduría de la mano, desde la fundición de los metales hasta la selección de piedras naturales que las acompaña, en un proceso 100% artesanal.",
     "parrafoCinco": " Ave es diseño de autor, pero también te invita a jugar con tu imaginación y ser parte del proceso creativo de tu amuleto, creando una pieza personalizada y única para ti."
-  }
+  },
+
+  "piedras": {
+    "piedraDeLuna": {
+      "nombre": "PIEDRA DE LUNA",
+      "descripcion": "Fuertemente conectada con la luna y la intuición. Nos recuerda que como la luna, todo crece y mengua y forma parte de un ciclo de cambios. Calma las emociones intensas. Equilibra las emociones masculinas y femeninas."
+    },
+    "aguamarina": {
+      "nombre": "AGUAMARINA",
+      "descripcion": "Brinda coraje, rompe viejos patrones derrotistas. Calma la mente, afila el intelecto y aclara la confusión. Resulta util para cerrar procesos a todos los niveles. Aclara la comunicación bloqueada"
+    },
+    "labradorita": {
+      "nombre": "LABRADORITA",
+      "descripcion": "Protectora, eleva la conciencia y conecta con las energías universales. Disipa miedos e inseguridades. Fortalece la confianza."
+    },
+    "granate": {
+      "nombre": "GRANATE",
+      "descripcion": "Energizante y regeneradora. Aporta la serenidad y pasión cuando es apropiado. Inspira amor y el compromiso. Util en momento de crisis, ayuda la superación de situaciones adversas. Abre el corazon y otorga confianza en uno mismo."
+    },
+    "ambar": {
+      "nombre": "AMBAR",
+      "descripcion": "Posee intensas conexiones con la tierra, sanadora y limpiadora del entorno. Motiva, vinculando el objeto de deseo con el impulso para conseguirlo."
+    },
+    "amatista": {
+      "nombre": "AMATISTA",
+      "descripcion": "Poderosa y protectora de levada vibración espiritual. Tranquilizante natural. Potencia la meditación. Ayuda a superar adicciones. Ayuda a mantener foco. Ayuda en casos de insomnio. Potencia la memoria y la motivación. Disipa furia, miedo y ansiedad. Trasmuta energías negativas en positivas."
+    },
+    "turmalina": {
+      "nombre": "TURMALINA",
+      "descripcion": "Purifica y transforma la energía densa en una vibración más ligera. Ayuda a la comprensión de uno mismo y de los demás, fomentando la tolerancia."
+    },
+    "cuarzo": {
+      "nombre": "CUARZO",
+      "descripcion": "Sanador y amplificador de energía más poderoso del planeta. Trabaja como limpiador del alma, conectando las dimensiones físicas con la mente. Sintoniza tu propósito espiritual. Favorece la concentración y activa la memoria. Promueve el amor universal."
+    },
+    "topacio": {
+      "nombre": "TOPACIO",
+      "descripcion": "Dirige la energía a donde más se necesita. Alivia, cura, estimula, recarga, devuelve la motivación y alinea. Pone luz en el camino, resalta objetivos y te pone en contacto con los recursos internos. Cristal de amor y buena suerte. Útil para los que se dedican al arte, te ayuda a descubrir tus propias riquezas."
+    },
+    "piedraDelSol": {
+      "nombre": "PIEDRA DEL SOL",
+      "descripcion": "Potencia la intuición, el buen humor. Aporta luz y energía vital permitiendo que tu yo brille. Ayuda a soltar enganches a nivel mental o emocional, cortar vínculos. Te ayuda a poner límites a decir no. Fortalece la independencia y la vitalidad. Antidepresiva. Favorece el autoestima."
+    },
+    "malaquita": {
+      "nombre": "MALAQUITA",
+      "descripcion": "Muy poderosa, se usa con mucha precaución y pulida, puesto que amplifica tanto energías positivas como negativas. Protege contra las radiaciones de cualquier tipo. Te ayuda a realizar cambios, asumir riesgos y transforma. Te ayuda a expresar sentimientos bloqueados. Intensifica los estados de ánimo."
+    },
+    "prehnita": {
+      "nombre": "PREHNITA",
+      "descripcion": "Amor universal, cura al sanador. Contacta con el yo superior. Muestra el camino del crecimiento espiritual. Alivia fobias, pesadillas y miedos profundos."
+    },
+
+    "crisocola": {
+      "nombre": "CRISOCOLA",
+      "descripcion": "Calma, limpia y re energiza todos los chacras. Expulsa las emociones negativas como la culpa e invierte la programación emocional destructiva. Cura la pena e incrementa la capacidad de amar. Trae equilibrio interno."
+    },
+    "amazonita": {
+      "nombre": "AMAZONITA",
+      "descripcion": "Poderosa filtradora. Protege contra la contaminación electromagnética. Relajante. Alivia el sistema nervioso. Ayuda a comprender distintos puntos de vista. Alivia traumas emocionales. Disipa la energía negativa y el enfado."
+    },
+    "lapisLazuli": {
+      "nombre": "LAPIS LAZULI",
+      "descripcion": "Abre el tercer ojo. Estimula la iluminación y potencia el trabajo con los sueños. Libera el stress y trae paz profunda. Enseña el poder de la palabra. Armoniza en todos los niveles. Te anima a hacerte cargo de tu vida y a la creatividad. Te ayuda afrontar la verdad."
+    },
+    "ojoDeTigre": {
+      "nombre": "OJO DE TIGRE",
+      "descripcion": "Crea un estado elevado vibracional. Protectora. Muestra el uso correcto del poder. Ayuda a conseguir nuestros objetivos. Aclara nuestra intensión. Excelente para la persona que no toca tierra o no se compromete. Remedia problemas de autocrítica y bloqueos de creatividad."
+    }
+  },
+  "productos": {
+    "consultar": "Consultar"
+  },
+  "derechos": "© 2022 Todos los derechos reservados"
 }
