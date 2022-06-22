@@ -3,7 +3,7 @@
 }
 
 .navBar--nav-size {
-  width: 85%;
+  width: 96%;
 }
 
 .navBar--nav-layout {
@@ -15,7 +15,7 @@
 
 .nav--ul-layout {
   display: flex;
-  gap: 5rem;
+  gap: 4.5rem;
   list-style-type: none;
   margin-bottom: 0;
   margin-left: 0;
