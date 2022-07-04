@@ -48,7 +48,7 @@
   width: 534px;
 }
 
-.headerHand{
+.headerHand {
   width: 4rem;
   margin: 1rem 20%;
 }
@@ -141,7 +141,7 @@ video {
 .inspirado {
   width: 404px;
   height: 147px;
-  font-family: 'Noto Serif Display', serif;
+  font-family: "Noto Serif Display", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
@@ -393,7 +393,7 @@ video {
     width: auto;
   }
 
-  .headerHand{
+  .headerHand {
     margin: 1rem 30%;
   }
 

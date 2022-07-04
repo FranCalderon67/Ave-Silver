@@ -7,7 +7,7 @@ export function Contact() {
   return (
     <>
       <section>
-        <span className="contact-title"> CONTACTANOS</span>
+        <span className="contact-title">{t("contacto.contactanos")}</span>
         <ContactForm type={2} />
       </section>
       <section className="contact--gallerySection">

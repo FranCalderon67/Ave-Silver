@@ -1,28 +1,28 @@
-.aboutUs--pContainer-position{
-    grid-column: 2/3;
-    grid-row: 2/3;
+.aboutUs--pContainer-position {
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
-.aboutUs--p{
-    font-size: 18px;
-    line-height: 29px;
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+.aboutUs--p {
+  font-size: 15px;
+  line-height: 29px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 @media screen and (max-width: 576px) {
-    .aboutUs--pContainer-position{
-        margin-top: 2rem;
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-} 
+  .aboutUs--pContainer-position {
+    margin-top: 2rem;
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+}
 
 @media screen and (min-width: 577px) and (max-width: 834px) {
-    .aboutUs--pContainer-position{
-        margin-top: 2rem;
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
+  .aboutUs--pContainer-position {
+    margin-top: 2rem;
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
 }

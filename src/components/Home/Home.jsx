@@ -8,8 +8,6 @@ import { LazyVideo } from "../HomeVideo/Index";
 
 import "./home.css";
 
-
-
 function Home() {
   const [t, i18n] = useTranslation("global");
   return (
@@ -49,7 +47,7 @@ function Home() {
         <section>
           <div className="descriptionSection">
             <img className="homeLogo" src={require("./imagenes/logo.png")} alt="LOGO" />
-            <p className="made">MADE IN TULUM</p>
+            <p className="made">HANDMADE IN TULUM</p>
             <p className="inspirado ">{t("home.inspirado")}</p>
             <p className="homeDescription">
               {t("home.rodeado")} <strong>{t("home.rodeadoBolt")}</strong>

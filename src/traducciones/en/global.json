@@ -38,7 +38,8 @@
     "consultaPlaceHolder": "Your message here",
     "boton": "SEND",
     "seguinos": "Follow us",
-    "seguinosTexto": "Follow us on instagram and keep up to date about new products and news."
+    "seguinosTexto": "Follow us on instagram and keep up to date about new products and news.",
+    "contactanos": "CONTACT US!"
   },
 
   "sobreAve": {
@@ -56,7 +57,7 @@
       "descripcion": "Strongly connected with the moon and intuition. It reminds us that like the moon, everything growths and wanes and is part of a cycle of changes. Calms intense emotions. Balance male and female emotions."
     },
     "aguamarina": {
-      "nombre": "AQUAMARINA",
+      "nombre": "AQUAMARINE",
       "descripcion": "Provides courage, breaks old defeatist patterns. Calms the mind, sharpens the intellect and clears up confusion. It is useful for closing processes at all levels. Clears blocked communication."
     },
     "labradorita": {
@@ -88,7 +89,7 @@
       "descripcion": "Direct the energy where it is needed most. Relief, heals, stimulates, recharges, restores motivation and aligns. It shines a light on the path, highlights goals, and puts you in touch with internal resources. Crystal of love and good luck. Useful for those who are dedicated to art, it helps you discover your own riches."
     },
     "piedraDelSol": {
-      "nombre": "SUN STONE",
+      "nombre": "SUNSTONE",
       "descripcion": "Power intuition, good humor. It brings light and vital energy allowing your self to shine. Helps to release hooks on a mental or emotional level, cut ties. It helps you set limits to saying no. Strengthens independence and vitality. Antidepressant. Promotes self-esteem."
     },
     "malaquita": {
