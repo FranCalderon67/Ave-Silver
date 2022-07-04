@@ -1,13 +1,14 @@
 import { ContactForm } from "../../components/ContactForm/Index";
 import { useTranslation } from "react-i18next";
 import "./contact.css";
+
 export function Contact() {
   const [t, i18n] = useTranslation("global");
   return (
     <>
       <section>
-        {/* <span class="contact-title"> CONTACTANOS</span> */}
-        <ContactForm style={2} />
+        <span className="contact-title"> CONTACTANOS</span>
+        <ContactForm type={2} />
       </section>
       <section className="contact--gallerySection">
         <h2 className="contactgallery--h2"> {t("contacto.seguinos")}</h2>

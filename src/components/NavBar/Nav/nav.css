@@ -36,6 +36,11 @@
   border-bottom: 3px solid #967167;
 }
 
+.nav--link--active{
+  color: #967167;
+  border-bottom: 3px solid #967167;
+}
+
 @media screen and (max-width: 834px) {
   .nav--toggler-size {
     width: 1.5rem;

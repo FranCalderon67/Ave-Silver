@@ -3,14 +3,28 @@ import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./nav.css";
 
+const NavLink = ({to, children}) => {
+  const { pathname } = useLocation();
+  const ACTIVE = (pathname === to) && 'nav--link--active'
+
+
+  return (
+    <li>
+      <Link className={`nav--link ${ACTIVE}`} to={to}>
+        {children}
+      </Link>
+    </li>
+  );
+};
+
 export function Nav() {
   const [t, i18n] = useTranslation("global");
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const URL = useLocation();
+  const {pathname} = useLocation();
 
   useEffect(() => {
     setIsNavOpen(false);
-  }, [URL.pathname]);
+  }, [pathname]);
 
   const OPEN_NAV = isNavOpen && "navbar--nav--open";
 
@@ -21,28 +35,20 @@ export function Nav() {
       </div>
       <nav className={`navBar--nav-layout navBar--nav-size navBar--nav--position ${OPEN_NAV}`}>
         <ul className="nav--ul-layout">
-          <li>
-            <Link className="nav--link" to={"/piezas"}>
-              {t("navBar.piezas")}
-            </Link>
-          </li>
-          <li>
-            <Link className="nav--link" to={"/piedras"}>
-              {t("navBar.piedras")}
-            </Link>
-          </li>
+          <NavLink to={"/piezas"}>
+            {t("navBar.piezas")}
+          </NavLink>
+          <NavLink to={"/piedras"}>
+            {t("navBar.piedras")}
+          </NavLink>
         </ul>
         <ul className="nav--ul-layout">
-          <li>
-            <Link className="nav--link" to={"/sobreAve"}>
-              {t("navBar.sobreAve")}
-            </Link>
-          </li>
-          <li>
-            <Link className="nav--link" to={"/contacto"}>
-              {t("navBar.contacto")}
-            </Link>
-          </li>
+          <NavLink to={"/sobreAve"}>
+            {t("navBar.sobreAve")}
+          </NavLink>
+          <NavLink to={"/contacto"}>
+          {t("navBar.contacto")}
+          </NavLink>
           <li onClick={() => i18n.changeLanguage("es")} className="nav--link">
             ES
           </li>
