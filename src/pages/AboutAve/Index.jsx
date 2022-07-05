@@ -5,6 +5,7 @@ import "./aboutAve.css";
 
 export function AboutAve() {
   const [t, i18n] = useTranslation("global");
+  i18n.off();
   return (
     <>
       <section className="aboutUsInfo-layout">
