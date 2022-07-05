@@ -4,6 +4,8 @@ import "./contact.css";
 
 export function Contact() {
   const [t, i18n] = useTranslation("global");
+  i18n.off();
+
   return (
     <>
       <section>

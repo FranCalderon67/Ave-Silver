@@ -2,6 +2,7 @@ import "./aboutAveInfo.css";
 import { useTranslation } from "react-i18next";
 export function AboutAveInfo() {
   const [t, i18n] = useTranslation("global");
+  i18n.off();
   return (
     <article className="aboutUs--pContainer-position">
       <p className="aboutUs--p">

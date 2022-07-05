@@ -8,6 +8,7 @@ import "./producto.css";
 
 const Producto = ({ item }) => {
   const [t, i18n] = useTranslation("global");
+  i18n.off();
 
   return (
     <>

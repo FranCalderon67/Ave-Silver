@@ -6,6 +6,7 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 function Footer() {
   const [t, i18n] = useTranslation("global");
+  i18n.off();
   return (
     <>
       <footer className="container-fluid">

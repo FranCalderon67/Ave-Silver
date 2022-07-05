@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 export function ContactForm({ type = null }) {
   const STYLE = type === 2 ? "contactForm-Style2" : null;
   const [t, i18n] = useTranslation("global");
+  i18n.off();
   return (
     <article className="contactFormContainer--layout">
       <div>

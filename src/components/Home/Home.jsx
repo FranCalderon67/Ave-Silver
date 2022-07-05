@@ -10,6 +10,7 @@ import "./home.css";
 
 function Home() {
   const [t, i18n] = useTranslation("global");
+  i18n.off();
   return (
     <>
       <div className="homeBackground">

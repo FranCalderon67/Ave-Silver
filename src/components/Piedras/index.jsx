@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 
 const ContenedorPiedra = () => {
   const [t, i18n] = useTranslation("global");
+  i18n.off();
   return (
     <>
       <section className="container">
