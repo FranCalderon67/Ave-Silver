@@ -85,7 +85,18 @@
   justify-content: center;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.562);
+  
+}
+
+.pic4--filter-anchor {
+  text-decoration: none;
   color: #ffffff;
+  transition: all 200ms ease-in-out;
+}
+
+.pic4--filter-anchor:hover {
+  color: #9b9696;
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 576px) {
@@ -115,6 +126,10 @@
   .contactGallery--smallPic-size {
     max-width: 100%;
     max-height: 4rem;
+  }
+
+  .contactGallery--pic4 {
+    font-size: 14px;
   }
 }
 

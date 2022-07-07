@@ -24,7 +24,9 @@ export function Contact() {
             <div className="contactGallery--img-bg contactGallery--smallPic-size contactGallery--pic3" />
             <div className="contactGallery--img-bg contactGallery--bigPic-size contactGallery--pic4">
               <div className="contactGallery--pic4-filter">
-                <span>@ave.silverandcrystals</span>
+                <a className="pic4--filter-anchor" href="https://www.instagram.com/ave.silver/?igshid=YmMyMTA2M2Y=" target={'_blank'} rel='noreferrer'>
+                  @ave.silverandcrystals
+                </a>
               </div>
             </div>
           </li>

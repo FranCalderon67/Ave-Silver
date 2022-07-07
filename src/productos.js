@@ -8,8 +8,8 @@ const productos = [
 
   {
     id: 2,
-    categoria: "colgantes",
-    nombre: "Amuleto Amatista + Aro flor-Amethyst Talisman + Flower Ring",
+    categoria: ["colgantes", 'aros'],
+    nombre: "Amuleto Amatista + Aro Flor-Amethyst Talisman + Flower Earring",
     imagen: "https://i.ibb.co/T0s7rKZ/amuleto-amatista.png",
   },
 
@@ -112,7 +112,7 @@ const productos = [
 
   {
     id: 17,
-    categoria: "anillos",
+    categoria: ["anillos", 'brazaletes'],
     nombre: "Brazalete + Anillo Line-Bracelet + Line Ring",
     imagen: "https://i.ibb.co/BsQhGZL/brazalete-anillo-line.png",
   },
@@ -168,54 +168,40 @@ const productos = [
 
   {
     id: 25,
-    categoria: "brazaletes",
-    nombre: "Brazalete + Anillo Line-Bracelet + Line Ring",
-    imagen: "https://i.ibb.co/BsQhGZL/brazalete-anillo-line.png",
-  },
-
-  {
-    id: 26,
     categoria: "aros",
     nombre: "Aro Line-Line Earring",
     imagen: "https://i.ibb.co/vXqfs5y/aro-line-solo.png",
   },
 
   {
-    id: 27,
-    categoria: "aros",
-    nombre: "Amuleto Amatista + Aro Flor-Amethyst Talisman + Flower Earring",
-    imagen: "https://i.ibb.co/T0s7rKZ/amuleto-amatista.png",
-  },
-
-  {
-    id: 28,
+    id: 26,
     categoria: "aros",
     nombre: "Septum Triangle, Simple, Luna y Line",
     imagen: "https://i.ibb.co/PQjJLF9/septum-triangle.png",
   },
 
   {
-    id: 29,
+    id: 27,
     categoria: "aros",
     nombre: "Aros Geo + Ear Cuff Plane-Geo Earring + Ear Cuff Plane",
     imagen: "https://i.ibb.co/VST6BpG/aros-geo.png",
   },
   {
-    id: 30,
+    id: 28,
     categoria: "aros",
     nombre: "Aros Line, Ear Cuff Torné, Ear Cuff Simple",
     imagen: "https://i.ibb.co/6nn0w0Y/aros-line.png",
   },
 
   {
-    id: 31,
+    id: 29,
     categoria: "prendedores",
     nombre: "Prendedor Flor-Flower Ping",
     imagen: "https://i.ibb.co/7VdynVz/prendedor-flor.png",
   },
 
   {
-    id: 32,
+    id: 30,
     categoria: "tiaras",
     nombre: "Tiara Moon",
     imagen: "https://i.ibb.co/WPy4wrY/tiara-moon.png",
@@ -228,7 +214,7 @@ const filtrarProductos = ({ category }) => {
       const LIST = !category
         ? productos
         : productos.filter((pieza) => {
-            return pieza.categoria === category;
+            return pieza.categoria.includes(category);
           });
       res(LIST);
     }, 2500);
