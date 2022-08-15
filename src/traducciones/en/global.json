@@ -1,8 +1,8 @@
 {
   "navBar": {
     "piezas": "PRODUCTS",
-    "piedras": "STONES",
-    "sobreAve": "ABOUT AVE",
+    "piedras": "CRYSTALS",
+    "sobreAve": "ABOUT US",
     "contacto": "CONTACT"
   },
 
@@ -12,27 +12,27 @@
     "anillos": "RINGS",
     "brazaletes": "BRACELETS",
     "aros": "EARRINGS",
-    "prendedores": "PINS",
+    "prendedores": "BROOCHES",
     "tiaras": "TIARAS"
   },
 
   "home": {
-    "textoAmuletos": "TALISMANS",
+    "textoAmuletos": "CHARMS",
     "textoCreados": "CREATED WITH THE WISDOM OF THE HAND",
     "boton": "PRODUCTS",
-    "textoAve": "Ave it's made through the most traditional methods of goldsmithing, creating a totally handmade product, taking care of every detail so it can reach your hands and your heart",
+    "textoAve": "Ave it's made through the most traditional methods of metalsmithing, creating a totally handmade product, taking care of every detail so it can reach your hands and your heart",
     "inspirado": "Inspired by Nature.",
     "rodeado": "Surrounden by the jungle, warm sea, fresh and cool cenotes, palm trees and a incredibly inspiring fauna,",
     "rodeadoBolt": "Ave, from Mexico to the world.",
     "listAnillo": "RINGS",
-    "listAmuleto": "TALISMANS",
+    "listAmuleto": "CHARMS",
     "listAros": "EARRINGS",
     "listColgantes": "NECKLACES"
   },
 
   "contacto": {
     "hablemos": "GET IN TOUCH!",
-    "invita": "Ave invites you to play with your imagination and to be part of the creative process of your talisman, creating a personalized and unique piece for you.",
+    "invita": "Ave invites you to play with your imagination and to be part of the creative process of your charm, creating a personalized and unique piece for you.",
     "emailPlaceHolder": "email@example.com",
     "consulta": "Write your message:",
     "consultaPlaceHolder": "Your message here",
@@ -43,38 +43,38 @@
   },
 
   "sobreAve": {
-    "sobre": "About AVE",
-    "parrafoUno": "The Ave dream begins because of my fascination with crystals, that i discovered in a trip to India in 2015, there my ayurdenic doctor recommended that i could use certain gems to be able to feel their properties and heal.",
-    "parrafoDos": "It was part of an incredible therapy that i took and ended up being an inspiration for my restless spirit, this is what it took me to experiment with goldsmithing. I studied this beatiful craft for three years at the Pedro Figari School of Arts and Handcrafts in Uruguay, where i was born.",
-    "parrafoTres": "Now, living in the Yucatan Peninsula, Mexico, surrounded by jungle, warm sea, cool cenotes, palm trees and a incredibly inspiring fauna, Ave is a constant experiment of creation that connects me with my soul and comes out of my wildest and most intuitive realm.",
-    "parrafoCuatro": "Uniques pieces are created with the wisdom of the hand, from melting the metals to the selection of natural stones, in a 100% handmade process.",
-    "parrafoCinco": "Ave is author design, but it also invites you to play with your imagination and be part of the creative process of your talisman, creating a personalized and unique piece for you."
+    "sobre": "About Us",
+    "parrafoUno": "I begun dreaming of Ave in 2015 while traveling India. I discovered my fascination with crystals when my ayurvedic doctor recommended that I used certain kinds of gemstones to feel their properties and heal.",
+    "parrafoDos": "It was part of an incredible therapy I tried, which ended up being an inspiration for my lively spirit and lead me to try out metalsmithing. I learnt this wonderful craft for three years at Pedro Figari Fine Arts and Crafts School in Uruguay, my home country.",
+    "parrafoTres": "Now, living in the Yucatan Peninsula, Mexico, next to the jungle, warm sea, cool cenotes, palm trees and an incredibly inspiring fauna, Ave means constant experimental creation that connects me with my soul and comes out of my wildest and most intuitive self.",
+    "parrafoCuatro": "All products are unique and carefully handmade, from metal melting to the selection of natural gemstones, 100% handcrafted process.",
+    "parrafoCinco": "Ave is original design, but it also invites you to play with your imagination and be part of the creative process of your charm, creating a personalized and unique piece for you."
   },
 
   "piedras": {
     "piedraDeLuna": {
       "nombre": "MOONSTONE",
-      "descripcion": "Strongly connected with the moon and intuition. It reminds us that like the moon, everything growths and wanes and is part of a cycle of changes. Calms intense emotions. Balance male and female emotions."
+      "descripcion": "Strongly connected with the moon and intuition. It reminds us that everything growths, wanes and is part of a cycle of changes just like the moon. Soothes intense emotions. Balances male and female emotions."
     },
     "aguamarina": {
       "nombre": "AQUAMARINE",
-      "descripcion": "Provides courage, breaks old defeatist patterns. Calms the mind, sharpens the intellect and clears up confusion. It is useful for closing processes at all levels. Clears blocked communication."
+      "descripcion": "Provides courage, breaks old pessimism patterns. Soothes the mind, sharpens the intellect and clears up confusion. It is useful for giving closure at all levels. Clears blocked communication."
     },
     "labradorita": {
       "nombre": "LABRADORITE",
-      "descripcion": "Protective, raises consciousness and connects with universal energies. Dispel fears and insecurities. Strengthens confidence."
+      "descripcion": "Protective, raises consciousness and connects with universal energies. Helps relieve fears and insecurities. Strengthens confidence."
     },
     "granate": {
       "nombre": "GARNET",
-      "descripcion": "Energizing and regenerating. Brings serenity and passion when it's appropriate. Inspires love and commitment. Useful in times of crisis, it helps to overcome adverse situations. It opens the heart and grants self-confidence."
+      "descripcion": "Energizing and regenerative. Brings serenity and passion when necessary. Inspires love and commitment. Useful in times of crisis, helps overcome adverse situations. It opens the heart and bestows self-confidence."
     },
     "ambar": {
       "nombre": "AMBER",
-      "descripcion": "It has intense connections with the earth, healer and cleaner of the environment. It motivates, linking the object of desire with the impulse to achieve it."
+      "descripcion": "Strictly connected to the earth. It is healer and cleanses the environment. It boosts motivation, linking the object of desire with the impulse to fulfill it."
     },
     "amatista": {
       "nombre": "AMETHYST",
-      "descripcion": "Powerful and protective of high spiritual vibration. Natural tranquilizer. Power meditation. Helps to overcome addictions. Helps maintain focus. Help in cases of insomnia. It enhances memory and motivation. Dispels anger, fear and anxiety. Transmutes negative energies into positive ones."
+      "descripcion": "Powerful and protective, with high spiritual vibration. Natural tranquilizer. Enhances meditation. Helps overcome addictions, maintain focus and in cases of insomnia. It enhances memory and motivation. Dispels anger, fear and anxiety. Transmutes negative energies into positive ones."
     },
     "turmalina": {
       "nombre": "TOURMALINE",
@@ -82,40 +82,40 @@
     },
     "cuarzo": {
       "nombre": "QUARTZ",
-      "descripcion": "Most powerful healer and energy amplifier on the planet. It works as a soul cleanser, connecting the physical dimensions with the mind. Tune in to your spiritual purpose. Promotes concentration and activates memory. Promotes universal love."
+      "descripcion": "Most powerful healer and energy amplifier on the planet. Cleanses the soul and connects the physical dimensions with the mind. Reconciles your spiritual purpose. Promotes concentration and activates memory. Promotes universal love."
     },
     "topacio": {
       "nombre": "TOPAZ",
-      "descripcion": "Direct the energy where it is needed most. Relief, heals, stimulates, recharges, restores motivation and aligns. It shines a light on the path, highlights goals, and puts you in touch with internal resources. Crystal of love and good luck. Useful for those who are dedicated to art, it helps you discover your own riches."
+      "descripcion": "Guides energy to where it is most needed. Relieves, heals, stimulates, recharges, re-motivates and aligns. It shines a light on your path, highlighting goals, and connects you with internal resources. It is a crystal of love and good fortune. Useful for those dedicated to art, it helps to discover your own wealth."
     },
     "piedraDelSol": {
       "nombre": "SUNSTONE",
-      "descripcion": "Power intuition, good humor. It brings light and vital energy allowing your self to shine. Helps to release hooks on a mental or emotional level, cut ties. It helps you set limits to saying no. Strengthens independence and vitality. Antidepressant. Promotes self-esteem."
+      "descripcion": "Heightens intuition and good mood. It brings light and vital energy allowing the real self to shine. Helps release hooks on a mental and emotional level and to cut ties. Helpful to those who have difficulty saying “No” to others. Encourages independence and vitality. Antidepressant. Increases self-esteem."
     },
     "malaquita": {
       "nombre": "MALACHITE",
-      "descripcion": "Very powerful, it is used with great caution and polished, since it amplifies both positive and negative energies. Protects against radiation of any kind. It helps you make changes, take risks and transform. It helps you express blocked feelings. Intensifies all moods."
+      "descripcion": "Very powerful, used with great caution and polished, since it amplifies both positive and negative energies. It guards against all kind of radiation. It encourages changes, risk-taking and transformation. It helps to express blocked feelings. Balances mood swings."
     },
     "prehnita": {
-      "nombre": "PREHNITA",
-      "descripcion": "Universal love, heal the healer. Contact the higher self. It shows the path of spiritual growth. Relieves phobias, nightmares and deep fears."
+      "nombre": "PREHNITE",
+      "descripcion": "Universal love, heals the healer. Contacts with the higher self. It shows the way for spiritual growth. Relieves phobias, nightmares and deep fears."
     },
 
     "crisocola": {
-      "nombre": "CHRYSOCOLA",
-      "descripcion": "Calms, cleanses and reenergizes all the chakras. It expels negative emotions like guilt and reverses destructive emotional programming. Heals sorrow and increases the capacity to love. Brings inner balance."
+      "nombre": "CHRYSOCOLLA",
+      "descripcion": "Calms, cleanses and re-energizes all the chakras. It draws out negative emotions like guilt and dissolves destructive emotional programming. Heals wounds and increases the capacity to love. Brings inner balance."
     },
     "amazonita": {
       "nombre": "AMAZONITE",
-      "descripcion": "Powerful filter. Protects against electromagnetic pollution. Relaxing. Helps the nervous system. It helps to understand different points of view. Relieves emotional trauma. Dispels negative energy and anger."
+      "descripcion": "Powerful filter. Protects against electromagnetic pollution. Relaxing. Calms the nervous system. It helps to understand different points of view. Soothes emotional trauma. Dispels negative energy and anger."
     },
     "lapisLazuli": {
       "nombre": "LAPIS LAZULI",
-      "descripcion": "Open the third eye. Stimulates enlightenment and enhances work with dreams. Release stress and bring deep peace. Teaches the power of the word. Harmonizes on all levels. It encourages you to take charge of your life and creativity. It helps you face the truth."
+      "descripcion": "Opens the third eye. Stimulates enlightenment and enhances the connection with dreams. Releases stress, bringing deep peace. Teaches the power of the word. Brings harmony on all levels. It encourages you to take care of your pen life and creativity. It helps you face the truth."
     },
     "ojoDeTigre": {
       "nombre": "TIGER'S EYE",
-      "descripcion": "Create a high vibrational state. Protective. Shows the correct use of power. Help us achieve our goals. Clarify our intention. Excellent for persons without commitment. Remedy self-criticism problems and creativity blocks."
+      "descripcion": "Creates a high vibrational state. Stone of protection. Shows the correct use of power. Help us achieve our goals. Clarifies intentions. Excellent for those who cannot ground or commit. Eases self-criticism problems and creativity blocks."
     }
   },
   "productos": {
