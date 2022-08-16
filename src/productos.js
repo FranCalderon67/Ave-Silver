@@ -36,14 +36,14 @@ const productos = [
   {
     id: 6,
     categoria: "colgantes",
-    nombre: "Garnet Hand Talisman",
+    nombre: "Garnet Hand Charm",
     imagen: "https://i.ibb.co/YpQ1B8g/amuleto-mano-granate.png",
   },
 
   {
     id: 7,
     categoria: "colgantes",
-    nombre: "Hand, Heart Necklace",
+    nombre: "Hand + Heart Necklace",
     imagen: "https://i.ibb.co/4ppRGd1/amuleto-chispa.png",
   },
 
@@ -161,7 +161,7 @@ const productos = [
   {
     id: 27,
     categoria: "aros",
-    nombre: "Geo Earring + Ear Cuff Plane",
+    nombre: "Geo Earring + Garnet Midi Ring",
     imagen: "https://i.ibb.co/zQzth1f/IMG-8912.jpg",
   },
 
@@ -177,7 +177,7 @@ const productos = [
   {
     id: 29,
     categoria: "prendedores",
-    nombre: "Flower Ping",
+    nombre: "Flower Brooche",
     imagen: "https://i.ibb.co/7VdynVz/prendedor-flor.png",
   },
 

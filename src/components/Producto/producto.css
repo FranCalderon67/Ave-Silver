@@ -26,6 +26,9 @@
   color: black;
   font-weight: 700;
 }
+.consulta-link:hover{
+  color: #967167;
+}
 
 @media screen and (max-width: 873px) {
   .producto-container {

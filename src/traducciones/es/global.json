@@ -1,7 +1,7 @@
 {
   "navBar": {
     "piezas": "PIEZAS",
-    "piedras": "PIEDRAS",
+    "piedras": "CRISTALES",
     "sobreAve": "SOBRE AVE",
     "contacto": "CONTACTO"
   },
@@ -23,7 +23,7 @@
     "textoAve": "Ave se realiza a través de los métodos más tradicionales de la orfebrería, creando un producto totalmente artesanal, cuidando cada detalle para que llegue a tus manos y a tu corazón.",
     "inspirado": "Inspirado en la Naturaleza",
     "rodeado": "Rodeada de selva, mar tibio, cenotes frescos, palmeras y una fauna increíblemente inspiradora,",
-    "rodeadoBolt": "Ave, desde México el mundo.",
+    "rodeadoBolt": "Ave, desde México para el mundo.",
     "listAnillo": "ANILLOS",
     "listAmuleto": "AMULETOS",
     "listAros": "AROS",
