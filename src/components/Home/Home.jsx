@@ -33,7 +33,7 @@ function Home() {
               </Link>
             </div>
             <div>
-              <img className="headerImg" src="https://i.ibb.co/SQVQfCB/header-Model.jpg" alt="Imagen" />
+              <img className="headerImg" src="https://i.ibb.co/YNrdKJQ/IMG-8614.jpg" alt="Imagen" />
             </div>
           </div>
         </section>
